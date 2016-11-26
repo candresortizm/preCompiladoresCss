@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+.img-width, img {
+  width: 100%;
+  min-width: 100%;
+  object-fit: cover; }
+
+h1, h2 {
+  font-size: 36px;
+  font-family: "Josefin Sans";
+  color: white; }
+  h1 small, h2 small {
+    color: #eee; }
+
+li > .titles {
+  font-size: 28px;
+  font-family: "helvetica";
+  color: white; }
+  li > .titles small {
+    color: #eee; }
+
+figure {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 33.33333%; }
+  figure * {
+    max-width: 100%;
+    overflow: hidden; }
+
+/*# sourceMappingURL=main.sass.css.map */

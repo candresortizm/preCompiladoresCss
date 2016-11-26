@@ -1,0 +1,13 @@
+//scss variables user defined
+$title-size: 32px;
+$font-file-url:"https://fonts.googleapis.com/css?family=Josefin+Sans";
+$font-name:"Josefin Sans";
+@import url($font-file-url);
+h1 {
+  font-size:$title-size;
+  font-family: $font-name;
+  color:white;
+  small{
+    color:#eee;
+  }
+}

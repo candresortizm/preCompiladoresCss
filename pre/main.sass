@@ -1,0 +1,15 @@
+//scss variables user defined
+$font-file-url:"https://fonts.googleapis.com/css?family=Josefin+Sans"
+$font-name:"Josefin Sans"
+@import url($font-file-url)
+
+@import _title.sass
+
+h1, h2
+  +titles(36px,"Josefin Sans")
+li>.titles
+  +titles(28px,"helvetica")
+img
+  @extend .img-width
+figure
+  +grid-element(3)
